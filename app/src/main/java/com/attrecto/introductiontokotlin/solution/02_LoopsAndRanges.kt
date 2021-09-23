@@ -6,6 +6,7 @@ package com.attrecto.introductiontokotlin.solution
 
 fun main() {
     for (i in 0 .. 100){
+        // Hupsz, if-et még nem vettünk!
         if(i % 2 == 0){
             println(i)
         }

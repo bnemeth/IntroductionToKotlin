@@ -31,7 +31,7 @@ fun main() {
     val myChar = 'C'
     val myString = "C"
 
-    // String interpolationm
+    // String interpolation
     val years = 10
     val message = "A decade is $years"
 
