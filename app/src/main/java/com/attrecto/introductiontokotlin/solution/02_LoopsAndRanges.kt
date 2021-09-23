@@ -1,7 +1,7 @@
 package com.attrecto.introductiontokotlin.solution
 
 // Írj alkalmazást, ami kiszámolja két szám legnagyobb közös osztóját
-// https://hu.wikipedia.org/wiki/Euklideszi_algoritmus
+// https://hu.wikipedia.org/wiki/Euklideszi_algoritmus#C-ben
 
 fun main() {
     var a = 12

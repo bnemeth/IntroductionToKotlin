@@ -1,7 +1,7 @@
 package com.attrecto.introductiontokotlin.solution
 
 // Írj függvényt, ami kiszámolja két szám legnagyobb közös osztóját
-// https://hu.wikipedia.org/wiki/Euklideszi_algoritmus
+// https://hu.wikipedia.org/wiki/Euklideszi_algoritmus#Java_nyelv%C5%B1_p%C3%A9lda_rekurzi%C3%B3val
 
 fun lnko(a: Int, b: Int): Int {
     if (a % b == 0) {
