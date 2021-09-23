@@ -1,18 +1,17 @@
 package com.attrecto.introductiontokotlin.solution
 
-// Készíts alkalmazást, ami kiírja a páros számokat 0 és 100 között
-// Hasznos operátor: a % maradékos osztás, vagy akár olyan range-et is létre lehet hozni ami
-// párosával lépked: https://kotlinlang.org/docs/ranges.html#range
+// Írj alkalmazást, ami kiszámolja két szám legnagyobb közös osztóját
+// https://hu.wikipedia.org/wiki/Euklideszi_algoritmus
 
 fun main() {
-    for (i in 0 .. 100){
-        // Hupsz, if-et még nem vettünk!
-        if(i % 2 == 0){
-            println(i)
-        }
+    var a = 12
+    var b = 18
+
+    while (b > 0) {
+        val temp = b
+        b = a%b
+        a = temp
     }
 
-    for(i in 0 .. 100 step 2){
-        println(i)
-    }
+    print(a)
 }
