@@ -4,7 +4,7 @@ import java.lang.Exception
 import java.security.InvalidParameterException
 import java.util.*
 
-// Ez egy class, sok mindet nem tudsz vele csinálni, de az!
+// Ez egy class, sok mindent nem tudsz vele csinálni, de az!
 class Customer
 
 class Customer2{
