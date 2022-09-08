@@ -8,17 +8,17 @@ fun main() {
     val num = 4
 
     // Egy nagyon tömör
-    val result1 = if(num % 2 == 0) num else num + 3
+    val result1 = if (num % 2 == 0) num else num + 3
 
     // Nem annyira tömör
-    val result2 = if(num % 2 == 0){
+    val result2 = if (num % 2 == 0) {
         num
     } else {
         num + 3
     }
 
-    // ha több eset lenne
-    val result3 = when{
+    // Ha több eset lenne, itt az Attrecto-ban betegesen vonzódunk ehhez a formához
+    val result3 = when {
         num % 2 == 0 -> num
         else -> num + 3
     }

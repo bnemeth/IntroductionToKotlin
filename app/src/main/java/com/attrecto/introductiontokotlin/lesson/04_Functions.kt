@@ -1,4 +1,4 @@
-package com.attrecto.introductiontokotlin.end
+package com.attrecto.introductiontokotlin.lesson
 
 // Sima paraméter nélküli fv. Nem nagy meglepetés hogy ehhez sem kell class,
 // Van visszatérési értéke: Unit (olyan mint a void), csak nem kell kiírni.
@@ -10,6 +10,9 @@ fun hello() {
 fun returnsAFour(): Int {
     return 4
 }
+
+// Lehet még egyszerűbb is
+fun returnsAFour2(): Int = 4
 
 // Itt is működik a type inference, meg az egyszerűsítés
 fun returnsASix() = 6
@@ -27,8 +30,7 @@ fun sum(x: Int, y: Int): Int {
 fun sum2(x: Int, y: Int) = x + y
 
 // A függvényeknek lehet default paramétere, nem kell sok overload-olt fv.
-fun sum3(x: Int, y: Int, z : Int = 0, w : Int = 0) = x + y + z
-
+fun sum3(x: Int, y: Int, z: Int = 0, w: Int = 0) = x + y + z
 
 fun main() {
     hello()

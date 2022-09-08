@@ -1,4 +1,4 @@
-package com.attrecto.introductiontokotlin.end
+package com.attrecto.introductiontokotlin.lesson
 
 // Szintén vannak interface-ek is
 interface CustomerRepository {
@@ -13,7 +13,7 @@ interface CustomerRepository {
 
     // Mi a különbség akkor?
     // Az interface-ek nem tárolhatnak állapotot (az absztrakt class igen) :
-    //val i = 4
+    // val i = 4
     // Egy osztály megvalósíthat több interface-et is, de nem öröklődhet több osztályból.
 
     // Bár nincs állapot, de lehet (absztrakt) property-t, és adhatunk meg neki pl getter-t!!

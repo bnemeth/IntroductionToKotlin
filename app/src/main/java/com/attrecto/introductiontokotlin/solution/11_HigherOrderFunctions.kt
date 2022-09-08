@@ -5,11 +5,10 @@ package com.attrecto.introductiontokotlin.solution
 // étékét
 // Hívd meg ezt a fv-t úgy hogy a megadott szám négyzetét írja ki.
 
-
-fun doIt(x : Int, op : (Int) -> Int){
+fun doIt(x: Int, op: (Int) -> Int) {
     print(op(x))
 }
 
 fun main() {
-    doIt(4, { x -> x * x})
+    doIt(4, { x -> x * x })
 }

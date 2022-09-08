@@ -1,8 +1,8 @@
-package com.attrecto.introductiontokotlin.end
+package com.attrecto.introductiontokotlin.lesson
 
 // Mint a java-ban, itt is vannak absztrakt osztályok, ezeket nem lehet példányostani
 abstract class StoredEntity {
-    // Az absztrakt osztálynak lehetnem nem absztrakt metódusai és property-jei
+    // Az absztrakt osztálynak lehet nem nem absztrakt metódusai és property-jei
     var isActive = true
 
     fun status(): String {
@@ -14,7 +14,6 @@ abstract class StoredEntity {
 
     // vagy akár absztrakt property-je is.
     abstract val id: Int
-
 }
 
 class Employee(
@@ -25,13 +24,11 @@ class Employee(
     // absztrakt metódusait
     override fun store() {
     }
-
 }
-
 
 fun main() {
     // Az absztrakt osztály nem példányosítható
-    //val storedEntity = StoredEntity()
+    // val storedEntity = StoredEntity()
 
     // Csak a belőle létrehozott osztály.
     val employee = Employee(1, "Gábor")
@@ -40,22 +37,7 @@ fun main() {
     // Láttuk hogy nem lehet példányosítani a StoredEntity-t. Lehet valahogy mégis létrehozni
     // egy olyan változót ami StoredEntity?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // Igen lehet. A változó típusa StoredEntity, az összes metódusát és property-jét el lehet érni
     // de nem lehet elérni az Employee name property-jét.
-    val storedEntity : StoredEntity = Employee(1, "Gábor")
+    val storedEntity: StoredEntity = Employee(1, "Gábor")
 }
-

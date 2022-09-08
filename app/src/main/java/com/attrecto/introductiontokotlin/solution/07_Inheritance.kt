@@ -12,13 +12,13 @@ open class Animal {
 }
 
 class Fox : Animal() {
-    override fun say(){
+    override fun say() {
         println("Ring-ding-ding-ding-dingeringeding!")
     }
 }
 
 class Cat : Animal() {
-    override fun say(){
+    override fun say() {
         println("Woof!")
     }
 }

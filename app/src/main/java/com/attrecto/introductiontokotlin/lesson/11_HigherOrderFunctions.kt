@@ -1,4 +1,4 @@
-package com.attrecto.introductiontokotlin.end
+package com.attrecto.introductiontokotlin.lesson
 
 // A Kotlinban lehet olyan hogy függvényeket adunk paraméterül másik függvénynek, vagy függvény
 // visszatérési értéke van egy függvénynek.
@@ -54,8 +54,7 @@ fun main() {
 
     val db = Database()
     // Milyen szép! Mintha saját nyelvet írnánk!
-    transaction(db){
+    transaction(db) {
         db.insert()
     }
-
 }

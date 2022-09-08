@@ -1,13 +1,13 @@
-package com.attrecto.introductiontokotlin.end
+package com.attrecto.introductiontokotlin.lesson
 
 // Sokszor van, amikor ez osztályt igazából adatok tárolására használunk csak.
 // Nem tartozik hozzá semmi logika.
 
 // Ilyenkor érdemes data class-ot használni, mindjárt kiderül hogy miért
-data class User(val id : Int)
+data class User(val id: Int)
 
 // Ez meg egy hagyományos class
-class RegularClassUser(val id : Int)
+class RegularClassUser(val id: Int)
 
 fun main() {
     // A hagyományos osztályokat pointer alapján hasonlítja, ugyanúgy mint a java.
@@ -26,7 +26,6 @@ fun main() {
     println(rcu1)
 
     // Illetve egy copy konstruktort, amivel meglévő példányból újat lehet létrehozni.
-    val u3 = u1.copy(id=3)
+    val u3 = u1.copy(id = 3)
     println(u3)
-
 }

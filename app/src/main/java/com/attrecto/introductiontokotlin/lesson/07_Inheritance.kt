@@ -1,5 +1,4 @@
-package com.attrecto.introductiontokotlin.end
-
+package com.attrecto.introductiontokotlin.lesson
 
 // Minden osztály az Any-ből öröklődik
 // Ha bele kattintasz az Any-be, láthatod hogy van néhány metódusa: equals(), hashCode(), toString()
@@ -7,7 +6,6 @@ class Apple() : Any()
 
 //  akkor is ha nem írjuk ki.
 class Banana()
-
 
 // Mint minden rendes OO programozási nyelv itt is van öröklődés.
 // A java-val ellentétben itt "open"-re kell rakni az osztályt hogy öröklődni lehessen belőle.
@@ -31,4 +29,3 @@ fun main() {
     val s = Student()
     s.validate()
 }
-

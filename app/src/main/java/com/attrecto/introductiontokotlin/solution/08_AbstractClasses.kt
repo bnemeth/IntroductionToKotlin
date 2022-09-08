@@ -5,18 +5,18 @@ package com.attrecto.introductiontokotlin.solution
 // osztály újra definilása miatt nem fordul
 
 fun main() {
-    abstract class Animal{
+    abstract class Animal {
         abstract fun say()
     }
 
     class Fox : Animal() {
-        override fun say(){
+        override fun say() {
             println("Ring-ding-ding-ding-dingeringeding!")
         }
     }
 
     class Cat : Animal() {
-        override fun say(){
+        override fun say() {
             println("Woof!")
         }
     }

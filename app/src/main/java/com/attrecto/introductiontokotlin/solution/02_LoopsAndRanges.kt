@@ -9,7 +9,7 @@ fun main() {
 
     while (b > 0) {
         val temp = b
-        b = a%b
+        b = a % b
         a = temp
     }
 

@@ -5,5 +5,5 @@ package com.attrecto.introductiontokotlin.solution
 // A következő érdekes függvények vannak: uppercase()
 fun main() {
     val name = "Balázs"
-    println("Helló ${(name.uppercase())}")
+    println("Helló ${name.uppercase()}")
 }
